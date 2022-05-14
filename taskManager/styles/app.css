@@ -1,0 +1,58 @@
+h1{
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 10 px 0;
+  background-color: rgb(121, 19, 127);
+}
+
+.main{
+  display: flex;
+}
+
+#list{
+  flex: 5;
+  background-color: White;
+  min-height: calc(100vh - 89px);
+}
+
+#form{
+  flex: 2;
+  padding: 10px;
+  background-color: #f0f1f1;
+  border: 1px solid rgb(218, 213, 213);
+  border-radius: 6px;
+  min-height: calc(100vh - 89px);
+}
+
+#form .control{
+  margin-bottom: 12px;
+}
+
+#form .control label{
+  color: #969a97;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+
+}
+
+.iImportant{
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#form .control .fas{
+  color: #f90093;
+}
+
+#form .control .far{
+  color: greyl;
+}
+
+#form h3{
+  text-align: center;
+  font-weight: 100;
+  color: #c60f7b;
+  margin-bottom: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
